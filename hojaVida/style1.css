@@ -1,0 +1,110 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.hoja {
+    margin: 5rem;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+
+body {
+    background-color: gray;
+}
+
+.izquierda {
+    width: 40%;
+    background-color: #0f1419;
+    color: white;
+    border: 0.2rem solid #0f1419;
+    display: flex;
+    flex-direction: column;
+    min-height: 40rem;
+    max-width: auto;
+}
+
+.foto {
+    height: 20rem;
+    border: 0.05rem solid white;
+    width: 100%;
+
+}
+
+.logos {
+    width: 3rem;
+    height: 3rem;
+}
+
+.organizacionImagenes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.datos {
+    padding: 2rem 0rem 2rem 5rem;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    border: 0.05rem solid white;
+}
+
+.derecha {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    background-color: white;
+    border: 0.2rem solid #0f1419;
+    align-items: center;
+    height: 100%;
+}
+
+.primero {
+
+    border: 0.05rem solid #0f1419;
+    width: 100%;
+    min-height: 16.6rem;
+    max-height: auto;
+
+}
+
+p {
+    margin: 2rem;
+}
+
+.foto img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+h1 {
+    margin: 0rem 28%;
+}
+
+.inicio {
+    min-height: 10rem;
+    max-height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.cargo_1 {
+    margin: 3rem;
+}
+
+.referencias {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.ref {
+    font-weight: bold;
+}

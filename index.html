@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="formulario">
+        <h1>Hoja de vida</h1>
+        <div class="nombres">
+            <div class="datos_1">
+                <p>Primer nombre </p>
+                <input type="text" id="primerNombre" v>
+            </div>
+            <div class="datos_1">
+                <p>Segundo nombre</p>
+                <input type="text" id="segundoNombre">
+            </div>
+            <div class="datos_1">
+                <p>Primer apellido </p>
+                <input type="text" id="primerApellido">
+            </div>
+            <div class="datos_1">
+                <p>Segundo apellido</p>
+                <input type="text" id="segundoApellido">
+            </div>
+        </div>
+
+
+        <div class="datos_2">
+
+            <div class="documento">
+                <p>Documento de indentificación</p>
+                <div class="tipo_cedula">
+                    <div class="cedula">
+                        <p>C.C</p>
+                        <input type="radio" name="opcion" value="C.C">
+                    </div>
+                    <div class="cedula">
+                        <p>C.E</p>
+                        <input type="radio" name="opcion" value="C.E">
+                    </div>
+                    <div class="cedula">
+                        <p>PAS</p>
+                        <input type="radio" name="opcion" value="PAS">
+                    </div>
+                    <div class="Num">
+                        <p>Numero:</p>
+                        <input type="text" class="num_cedula" id="numeroCedula">
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="fecha">
+                <p>Fecha de nacimiento:</p>
+                <div class="calendario">
+                    <input type="date" id="fechaNacimiento">
+                </div>
+            </div>
+
+            <div>
+                <p>Sexo:</p>
+                <select class="sexo" id="sexo">
+                    <option disabled selected>Seleccionar</option>
+                    <option value="Femenino">Femenino</option>
+                    <option value="Masculino">Masculino</option>
+                    <option value="">Prefiero no decir</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="datos_3">
+            <div class="entrada_datos">
+                <p>Correo:</p>
+                <input type="email" class="correo" id="correo">
+            </div>
+            <div class="num_celular">
+                <p>Numero de celular:</p>
+                <input type="text" id="numeroCelular">
+            </div>
+            <div class="entrada_datos">
+                <p>Nivel de educacion:</p>
+                <select class="nivelEducacion" id="nivelEducacion">
+                    <option disabled selected>Seleccionar</option>
+                    <option value="Primaria">Primaria</option>
+                    <option value="Bachillerato">Bachillerato</option>
+                    <option value="Tecnico">Tecnico</option>
+                    <option value="Tecnologo">Tecnologo</option>
+                    <option value="Pregrado">Pregrado</option>
+                    <option value="Posgrado">Posgrado</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="cargo">
+            <p>Ingrese su cargo</p>
+            <input type="text" class="carrera" id="cargo">
+        </div>
+
+        <div class="cargo">
+            <p>Información personal:</p>
+            <textarea class="info" id="infoPersonal"></textarea>
+            <br><br>
+        </div>
+        <div class="cargo">
+            <p>Experiencia laboral:</p>
+            <textarea class="info" id="experiencia"></textarea>
+            <br><br>
+        </div>
+
+        <div class="datos_4">
+            <p>Ingrese referencias (pueden ser personales o laborales):</p>
+            <div class="referencias">
+                <div class="datos_referencias">
+                    <p>Nombre:</p>
+                    <input type="text" id="nombre_1">
+                    <p>Cargo:</p>
+                    <input type="text" id="cargo_1">
+                    <p>Correo electronico:</p>
+                    <input type="text" id="correo_1">
+                    <p>Numero de celular:</p>
+                    <input type="text" id="celular_1">
+                </div>
+                <div>
+                    <p>Nombre:</p>
+                    <input type="text" id="nombre_2">
+                    <p>Cargo:</p>
+                    <input type="text" id="cargo_2">
+                    <p>Correo electronico:</p>
+                    <input type="text" id="correo_2">
+                    <p>Numero de celular:</p>
+                    <input type="text" id="celular_2">
+                </div>
+            </div>
+        </div>
+        <button class="boton" onclick="generar()">Generar hoja de vida</button>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

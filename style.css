@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+input {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1rem;
+    border: 0.1rem solid;
+    border-radius: 0.3rem;
+    border-color: blue;
+    height: 1.5rem;
+    padding: 0.5rem;
+}
+
+textarea {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border-color: blue;
+}
+
+select {
+    border-radius: 0.3rem;
+    border-color: blue;
+    width: 10rem;
+}
+
+p,
+h1 {
+    margin: 0.2rem;
+    font-family: "EB Garamond", serif;
+}
+
+body {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    padding: 2rem 2rem;
+    width: 100%;
+    background-color: blanchedalmond;
+}
+
+
+.formulario {
+    padding: 20px;
+    width: 75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 2rem 3rem auto 6rem;
+    background-color: darkgrey;
+    border: 2px solid black
+}
+
+.nombres {
+    margin: 0.5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.datos_1 {
+    margin: 0rem 2rem;
+}
+
+.datos_2 {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem 2.3rem;
+}
+
+.tipo_cedula {
+    display: flex;
+    flex-direction: row;
+    margin: 0.5rem 0rem;
+}
+
+.cedula {
+    display: flex;
+    flex-direction: row;
+    margin: 0rem 0.5rem;
+}
+
+.Num {
+    display: flex;
+    flex-direction: row;
+}
+
+.num_cedula {
+    height: 1rem;
+}
+
+.fecha {
+    margin: 0rem 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.nacimiento {
+    display: flex;
+    flex-direction: row;
+}
+
+.entrada_fecha_nacimiento {
+    width: 4rem;
+}
+
+.entrada {
+    margin: 0rem 0.5rem;
+}
+
+.calendario {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1rem;
+    margin: 0.3rem 0rem;
+}
+
+.sexo {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1rem;
+    margin: 0.5rem 0rem;
+}
+
+.nivelEducacion {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1rem;
+}
+
+.datos_3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.entrada_datos {
+    margin: 0rem 2rem;
+}
+
+.num_celular {
+    margin: 0rem 1.3rem 0rem 8rem;
+}
+
+.correo {
+    width: 20rem;
+}
+
+.carrera {
+    width: 58rem;
+}
+
+.cargo {
+    margin: 2rem;
+}
+
+.info {
+    width: 58rem;
+    height: 10rem;
+    padding: 1rem;
+    resize: none;
+}
+
+
+.referencias {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.datos_4 {
+    margin: 0px 2rem;
+}
+
+.datos_referencias {
+    margin: 0rem 2rem;
+}
+
+.foto {
+    margin: 2rem 2rem;
+}
+
+.boton {
+    align-items: center;
+    margin: 2rem 30rem;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 2rem;
+    border-color: blanchedalmond;
+    background-color: blanchedalmond;
+}
+
+.entrada_foto {
+    border: none;
+}
